@@ -6,8 +6,12 @@ spring:
   profiles: dev
   application:
     name: microservice-config-dev # 开发环境
+server:
+  port: 8201    
 ---
 spring:
   profiles: test
   application:
-    name: microservice-config-test # 测试环境        
+    name: microservice-config-test # 测试环境
+server:
+  port: 8202             

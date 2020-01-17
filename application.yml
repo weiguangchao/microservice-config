@@ -10,4 +10,4 @@ spring:
 spring:
   profiles: test
   application:
-    name: microservice-config-dev # 测试环境        
+    name: microservice-config-test # 测试环境        
